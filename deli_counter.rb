@@ -17,9 +17,9 @@ def take_a_number(deli, name)
       deli.push(name)
       puts "Welcome, #{name}. You are number #{deli.length} in line."
   elsif deli.length > 0
-      deli.push(name)
+      deli << name
 
   end
-    
+
 
 end
